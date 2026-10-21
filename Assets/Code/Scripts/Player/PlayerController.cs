@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>Đọc phím di chuyển và giữ tàu trong vùng nhìn của camera.</summary>
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
 public class PlayerController : MonoBehaviour
@@ -21,6 +22,7 @@ public class PlayerController : MonoBehaviour
 
     private PlayerConfig playerConfig;
 
+    /// <summary>Lấy vật lý, collider, camera và cấu hình tàu để chuẩn bị di chuyển.</summary>
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -33,9 +35,11 @@ public class PlayerController : MonoBehaviour
             playerSprite = GetComponent<SpriteRenderer>();
     }
 
+    /// <summary>Đọc WASD hoặc phím mũi tên và chuẩn hóa hướng để di chuyển chéo không nhanh hơn.</summary>
     private void Update()
     {
         movementInput = Vector2.zero;
+        if (!GameManager.CanAdvanceGameplay) return;
 
         Keyboard keyboard = Keyboard.current;
 
@@ -66,12 +70,14 @@ public class PlayerController : MonoBehaviour
             movementInput.x += 1f;
         }
 
+        // Hướng chéo có độ dài lớn hơn 1; chuẩn hóa giúp giữ cùng tốc độ với đi ngang hoặc dọc.
         movementInput = movementInput.normalized;
     }
 
+    /// <summary>Tính vị trí từ hướng nhập và tốc độ tàu, giới hạn trong màn hình rồi di chuyển bằng Rigidbody2D.</summary>
     private void FixedUpdate()
     {
-        if (playerConfig == null)
+        if (!GameManager.CanAdvanceGameplay || playerConfig == null)
             return;
 
         Vector2 newPosition =
@@ -85,6 +91,9 @@ public class PlayerController : MonoBehaviour
         rb.MovePosition(newPosition);
     }
 
+    /// <summary>Giới hạn vị trí tâm tàu theo mép camera, có tính nửa kích thước collider và khoảng đệm.</summary>
+    /// <param name="position">Vị trí tàu dự định di chuyển đến.</param>
+    /// <returns>Vị trí nằm trong giới hạn; giữ nguyên nếu thiếu camera hoặc collider.</returns>
     private Vector2 ClampToScreen(Vector2 position)
     {
         if (mainCamera == null ||
@@ -121,6 +130,7 @@ public class PlayerController : MonoBehaviour
             mainCamera.transform.position.y +
             cameraHeight;
 
+        // Thu hẹp vùng đặt tâm tàu theo collider để cả thân tàu và khoảng đệm đều nằm trong màn hình.
         float minX =
             cameraLeft +
             halfWidth +

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3902995522524779005}
   - component: {fileID: 4429434470985593985}
   - component: {fileID: -8218971109403400134}
+  - component: {fileID: 8197050434753955280}
   m_Layer: 0
   m_Name: Asteroid_Small
   m_TagString: Untagged
@@ -262,7 +263,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidController
   moveSpeed: 1.5
   damage: 10
-  destroyY: -7
 --- !u!114 &-8218971109403400134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,3 +276,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidCollision
   damage: 10
+--- !u!114 &8197050434753955280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3371596137892145759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59bbd102d1152849b4e464c54f44fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AsteroidDeathVfx
+  explosionPrefab: {fileID: 889685695010220192, guid: b79376eb8d9f60f42a0449c3b3555860, type: 3}
+  fragmentCount: 7
+  sparkCount: 12
+  fragmentTint: {r: 1, g: 1, b: 1, a: 1}
+  fragmentSaturation: 1

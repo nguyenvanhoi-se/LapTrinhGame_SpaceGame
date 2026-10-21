@@ -1,5 +1,6 @@
 using UnityEngine;
 
+/// <summary>Sinh ngôi sao theo chu kỳ tại vị trí ngang ngẫu nhiên.</summary>
 public class StarSpawner : MonoBehaviour
 {
     [Header("Star")]
@@ -15,8 +16,16 @@ public class StarSpawner : MonoBehaviour
 
     private float nextSpawnTime;
 
+    /// <summary>Hẹn thời điểm sinh ngôi sao đầu tiên sau một chu kỳ.</summary>
+    private void Start()
+    {
+        nextSpawnTime = Time.time + spawnInterval;
+    }
+
+    /// <summary>Sinh sao khi đến hạn rồi hẹn lần tiếp theo theo thời gian game.</summary>
     private void Update()
     {
+        if (!GameManager.CanAdvanceGameplay) return;
         if (Time.time < nextSpawnTime)
             return;
 
@@ -26,6 +35,7 @@ public class StarSpawner : MonoBehaviour
             Time.time + spawnInterval;
     }
 
+    /// <summary>Kiểm tra prefab rồi tạo sao tại độ cao cố định với hoành độ ngẫu nhiên trong vùng cấu hình.</summary>
     private void SpawnStar()
     {
         if (starPrefab == null)

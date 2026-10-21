@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+/// <summary>Quản lý danh sách prefab tàu và lưu lựa chọn của người chơi giữa các scene.</summary>
 public class ShipManager : MonoBehaviour
 {
     public static ShipManager Instance { get; private set; }
@@ -11,6 +12,7 @@ public class ShipManager : MonoBehaviour
 
     private const string SelectedPlayerKey = "SelectedPlayer";
 
+    /// <summary>Giữ một instance xuyên scene và khôi phục lựa chọn tàu đã lưu.</summary>
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -25,6 +27,7 @@ public class ShipManager : MonoBehaviour
         LoadSelectedPlayer();
     }
 
+    /// <summary>Tìm prefab theo tên cấu hình đã lưu; dùng tàu đầu tiên khi chưa chọn hoặc không tìm thấy.</summary>
     private void LoadSelectedPlayer()
     {
         string selectedPlayerName =
@@ -80,6 +83,8 @@ public class ShipManager : MonoBehaviour
         }
     }
 
+    /// <summary>Nhận prefab hợp lệ làm tàu đang chọn và lưu lựa chọn.</summary>
+    /// <param name="playerPrefab">Prefab tàu người chơi chọn.</param>
     public void SelectPlayer(GameObject playerPrefab)
     {
         if (playerPrefab == null)
@@ -95,6 +100,7 @@ public class ShipManager : MonoBehaviour
         );
     }
 
+    /// <summary>Lưu tên trong PlayerConfig của tàu hiện tại vào PlayerPrefs.</summary>
     private void SaveSelectedPlayer()
     {
         if (selectedPlayerPrefab == null)
@@ -119,11 +125,15 @@ public class ShipManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    /// <summary>Lấy prefab tàu đang chọn để tạo người chơi.</summary>
+    /// <returns>Prefab đã chọn, có thể null nếu chưa có tàu hợp lệ.</returns>
     public GameObject GetSelectedPlayerPrefab()
     {
         return selectedPlayerPrefab;
     }
 
+    /// <summary>Cung cấp mảng prefab tàu đã cấu hình.</summary>
+    /// <returns>Mảng prefab hiện có của ShipManager.</returns>
     public GameObject[] GetPlayerPrefabs()
     {
         return playerPrefabs;

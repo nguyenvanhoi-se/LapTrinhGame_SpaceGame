@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+/// <summary>Lưu thông tin và chỉ số tàu trong một ScriptableObject để cấu hình ở Editor.</summary>
 [CreateAssetMenu(
     fileName = "ShipData",
     menuName = "Space Explorer/Ship Data"

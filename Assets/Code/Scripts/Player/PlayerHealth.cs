@@ -1,5 +1,6 @@
 using UnityEngine;
 
+/// <summary>Quản lý máu tàu, cập nhật giao diện và báo thua khi hết máu.</summary>
 public class PlayerHealth : MonoBehaviour
 {
     private PlayerConfig playerConfig;
@@ -7,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     private int currentHealth;
     private PlayerHealthUI healthUI;
 
+    /// <summary>Đọc cấu hình máu tối đa của tàu và tìm giao diện hiển thị máu.</summary>
     private void Awake()
     {
         playerConfig = GetComponent<PlayerConfig>();
@@ -25,8 +27,12 @@ public class PlayerHealth : MonoBehaviour
             FindFirstObjectByType<PlayerHealthUI>();
     }
 
+    /// <summary>Trừ máu khi game đang chạy, cập nhật giao diện và xử lý thua nếu hết máu.</summary>
+    /// <param name="damage">Lượng sát thương nhận vào.</param>
     public void TakeDamage(int damage)
     {
+        if (!GameManager.CanAdvanceGameplay) return;
+
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
 
@@ -54,6 +60,7 @@ public class PlayerHealth : MonoBehaviour
             Die();
     }
 
+    /// <summary>Báo GameManager xử lý thua rồi vô hiệu hóa đối tượng tàu.</summary>
     private void Die()
     {
         Debug.Log("PLAYER GAME OVER");
@@ -64,11 +71,15 @@ public class PlayerHealth : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    /// <summary>Cung cấp lượng máu còn lại của tàu.</summary>
+    /// <returns>Máu hiện tại.</returns>
     public int GetCurrentHealth()
     {
         return currentHealth;
     }
 
+    /// <summary>Đọc giới hạn máu từ cấu hình tàu.</summary>
+    /// <returns>Máu tối đa, hoặc 0 nếu thiếu PlayerConfig.</returns>
     public int GetMaxHealth()
     {
         return playerConfig != null

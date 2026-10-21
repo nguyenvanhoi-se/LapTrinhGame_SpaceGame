@@ -1,5 +1,6 @@
 using UnityEngine;
 
+/// <summary>Tự động bắn theo chu kỳ tại các nòng súng dựa trên cấu hình tàu.</summary>
 public class WeaponAim : MonoBehaviour
 {
     [Header("Weapon Settings")]
@@ -10,6 +11,7 @@ public class WeaponAim : MonoBehaviour
     private PlayerConfig playerConfig;
     private float nextFireTime;
 
+    /// <summary>Lấy cấu hình tàu từ đối tượng cha và báo lỗi nếu thiếu.</summary>
     private void Awake()
     {
         playerConfig = GetComponentInParent<PlayerConfig>();
@@ -22,11 +24,14 @@ public class WeaponAim : MonoBehaviour
         }
     }
 
+    /// <summary>Thực hiện chu kỳ bắn tự động khi game cho phép cập nhật.</summary>
     private void Update()
     {
+        if (!GameManager.CanAdvanceGameplay) return;
         AutoFire();
     }
 
+    /// <summary>Bắn khi hết thời gian chờ rồi hẹn đợt kế tiếp theo fireRate.</summary>
     private void AutoFire()
     {
         if (Time.time < nextFireTime)
@@ -37,6 +42,7 @@ public class WeaponAim : MonoBehaviour
         nextFireTime = Time.time + fireRate;
     }
 
+    /// <summary>Tạo đạn tại số nòng phù hợp cấu hình, gán sát thương và phát âm thanh một lần cho cả loạt.</summary>
     private void Shoot()
     {
         if (bulletPrefab == null)
@@ -59,6 +65,7 @@ public class WeaponAim : MonoBehaviour
             return;
         }
 
+        // Không tạo nhiều đạn hơn số nòng đã gán, dù cấu hình tàu yêu cầu nhiều hơn.
         int count = Mathf.Min(
             playerConfig.bulletCount,
             firePoints.Length
@@ -85,7 +92,7 @@ public class WeaponAim : MonoBehaviour
             }
         }
 
-        // Phát âm thanh 1 lần cho mỗi lần bắn
+        // Cả loạt nhiều nòng chỉ phát một âm thanh bắn.
         if (AudioManager.Instance != null)
         {
             AudioManager.Instance.PlayShootSound();

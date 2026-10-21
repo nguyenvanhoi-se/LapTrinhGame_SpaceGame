@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+/// <summary>Chứa tên, máu, tốc độ và thông số vũ khí của prefab tàu.</summary>
 public class PlayerConfig : MonoBehaviour
 {
     [Header("Player Info")]

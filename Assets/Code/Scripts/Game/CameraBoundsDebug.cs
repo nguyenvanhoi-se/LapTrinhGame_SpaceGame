@@ -1,7 +1,9 @@
 using UnityEngine;
 
+/// <summary>In giới hạn vùng nhìn của camera trực giao để hỗ trợ kiểm tra màn chơi.</summary>
 public class CameraBoundsDebug : MonoBehaviour
 {
+    /// <summary>Tính chiều rộng, chiều cao và bốn mép camera trực giao rồi in ra Console.</summary>
     private void Start()
     {
         Camera cam = GetComponent<Camera>();

@@ -96,6 +96,30 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8197050434753955280, guid: 9c918dd7a4edd114cbd267790d150b93, type: 3}
+      propertyPath: sparkCount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197050434753955280, guid: 9c918dd7a4edd114cbd267790d150b93, type: 3}
+      propertyPath: fragmentCount
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197050434753955280, guid: 9c918dd7a4edd114cbd267790d150b93, type: 3}
+      propertyPath: fragmentTint.b
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197050434753955280, guid: 9c918dd7a4edd114cbd267790d150b93, type: 3}
+      propertyPath: fragmentTint.g
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197050434753955280, guid: 9c918dd7a4edd114cbd267790d150b93, type: 3}
+      propertyPath: fragmentTint.r
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197050434753955280, guid: 9c918dd7a4edd114cbd267790d150b93, type: 3}
+      propertyPath: fragmentSaturation
+      value: 0.05
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -8218971109403400134, guid: 9c918dd7a4edd114cbd267790d150b93, type: 3}
     - {fileID: 3027246743568583448, guid: 9c918dd7a4edd114cbd267790d150b93, type: 3}

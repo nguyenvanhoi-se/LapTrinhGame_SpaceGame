@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>Tạo danh sách thẻ tàu và đồng bộ tàu đang được chọn.</summary>
 public class SelectShipUI : MonoBehaviour
 {
     [Header("Ship List")]
@@ -9,11 +10,13 @@ public class SelectShipUI : MonoBehaviour
 
     private ShipCardUI selectedCard;
 
+    /// <summary>Tạo các thẻ tàu khi màn hình chọn tàu bắt đầu.</summary>
     private void Start()
     {
         CreateShipCards();
     }
 
+    /// <summary>Tạo thẻ cho từng prefab hợp lệ và đánh dấu thẻ ứng với tàu đang được lưu.</summary>
     private void CreateShipCards()
     {
         if (shipCardPrefab == null)
@@ -80,6 +83,8 @@ public class SelectShipUI : MonoBehaviour
         }
     }
 
+    /// <summary>Bỏ dấu chọn cũ, lưu prefab mới qua ShipManager và đánh dấu thẻ tương ứng.</summary>
+    /// <param name="playerPrefab">Prefab tàu cần chọn.</param>
     public void SelectPlayer(
         GameObject playerPrefab)
     {
@@ -109,6 +114,7 @@ public class SelectShipUI : MonoBehaviour
         }
     }
 
+    /// <summary>Tải scene menu chính từ màn hình chọn tàu.</summary>
     public void BackToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");

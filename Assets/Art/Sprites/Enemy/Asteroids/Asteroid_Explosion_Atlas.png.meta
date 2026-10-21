@@ -1,0 +1,1510 @@
+fileFormatVersion: 2
+guid: af56e543cff78d249b4ff4a1dd8644e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2744935819578596646
+    second: Asteroid_Explosion_Atlas_0
+  - first:
+      213: -2678032301644035368
+    second: Asteroid_Explosion_Atlas_1
+  - first:
+      213: -7240768085272146093
+    second: Asteroid_Explosion_Atlas_2
+  - first:
+      213: -1203555486361155953
+    second: Asteroid_Explosion_Atlas_3
+  - first:
+      213: -2073029493971417054
+    second: Asteroid_Explosion_Atlas_4
+  - first:
+      213: 3175509813972486736
+    second: Asteroid_Explosion_Atlas_5
+  - first:
+      213: 1963678690365647881
+    second: Asteroid_Explosion_Atlas_6
+  - first:
+      213: -6030251765755519269
+    second: Asteroid_Explosion_Atlas_7
+  - first:
+      213: -233649650797302183
+    second: Asteroid_Explosion_Atlas_8
+  - first:
+      213: -4237668653142691270
+    second: Asteroid_Explosion_Atlas_9
+  - first:
+      213: -619823790631700383
+    second: Asteroid_Explosion_Atlas_10
+  - first:
+      213: -8221271916469627186
+    second: Asteroid_Explosion_Atlas_11
+  - first:
+      213: -5720594072060412151
+    second: Asteroid_Explosion_Atlas_12
+  - first:
+      213: 8954177198315328814
+    second: Asteroid_Explosion_Atlas_13
+  - first:
+      213: -1256964867616040878
+    second: Asteroid_Explosion_Atlas_14
+  - first:
+      213: 7450811269069711381
+    second: Asteroid_Explosion_Atlas_15
+  - first:
+      213: 7432892252743684030
+    second: Asteroid_Explosion_Atlas_16
+  - first:
+      213: 1803137863923466064
+    second: Asteroid_Explosion_Atlas_17
+  - first:
+      213: 7995743289359841245
+    second: Asteroid_Explosion_Atlas_18
+  - first:
+      213: 8464462522674431449
+    second: Asteroid_Explosion_Atlas_19
+  - first:
+      213: 8858805870918604804
+    second: Asteroid_Explosion_Atlas_20
+  - first:
+      213: -8126168259165717990
+    second: Asteroid_Explosion_Atlas_21
+  - first:
+      213: 8713630632361748982
+    second: Asteroid_Explosion_Atlas_22
+  - first:
+      213: -3789645626215224474
+    second: Asteroid_Explosion_Atlas_23
+  - first:
+      213: 4688806048754458395
+    second: Asteroid_Explosion_Atlas_24
+  - first:
+      213: -1902990333943553753
+    second: Asteroid_Explosion_Atlas_25
+  - first:
+      213: 4307669945926326958
+    second: Asteroid_Explosion_Atlas_26
+  - first:
+      213: 1690112644164230894
+    second: Asteroid_Explosion_Atlas_27
+  - first:
+      213: -763489217556042672
+    second: Asteroid_Explosion_Atlas_28
+  - first:
+      213: -6920182992040049878
+    second: Asteroid_Explosion_Atlas_29
+  - first:
+      213: 1253589855284466062
+    second: Asteroid_Explosion_Atlas_30
+  - first:
+      213: 7022540259857446334
+    second: Asteroid_Explosion_Atlas_31
+  - first:
+      213: 1404238153958217227
+    second: Asteroid_Explosion_Atlas_32
+  - first:
+      213: 3910970233707283814
+    second: Asteroid_Explosion_Atlas_33
+  - first:
+      213: 3878295603101820918
+    second: Asteroid_Explosion_Atlas_34
+  - first:
+      213: -1217356956252969957
+    second: Asteroid_Explosion_Atlas_35
+  - first:
+      213: 6901896615980554173
+    second: Asteroid_Explosion_Atlas_36
+  - first:
+      213: 5922562914649046483
+    second: Asteroid_Explosion_Atlas_37
+  - first:
+      213: 8318839731332814180
+    second: Asteroid_Explosion_Atlas_38
+  - first:
+      213: -8656026535434744875
+    second: Asteroid_Explosion_Atlas_39
+  - first:
+      213: 5601219112961527150
+    second: Asteroid_Explosion_Atlas_40
+  - first:
+      213: -7652550044713329737
+    second: Asteroid_Explosion_Atlas_41
+  - first:
+      213: 8530791511153735044
+    second: Asteroid_Explosion_Atlas_42
+  - first:
+      213: 5977107494493853875
+    second: Asteroid_Explosion_Atlas_43
+  - first:
+      213: -2492202166165046437
+    second: Asteroid_Explosion_Atlas_44
+  - first:
+      213: 815178772538557643
+    second: Asteroid_Explosion_Atlas_45
+  - first:
+      213: 7570685496015164113
+    second: Asteroid_Explosion_Atlas_46
+  - first:
+      213: 8087651662510091748
+    second: Asteroid_Explosion_Atlas_47
+  - first:
+      213: -2634882346266219472
+    second: Asteroid_Explosion_Atlas_48
+  - first:
+      213: -2891256413465028495
+    second: Asteroid_Explosion_Atlas_49
+  - first:
+      213: -32322225966396404
+    second: Asteroid_Explosion_Atlas_50
+  - first:
+      213: -6397332544072571380
+    second: Asteroid_Explosion_Atlas_51
+  - first:
+      213: 577018000117467870
+    second: Asteroid_Explosion_Atlas_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 761
+        height: 1254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d5a39a598f71620800000000000000
+      internalID: 2744935819578596646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1183
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da4c7b7fc7b5dad0800000000000000
+      internalID: -2678032301644035368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1179
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f4e582acf938b90800000000000000
+      internalID: -7240768085272146093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1189
+        width: 82
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8688ff69ac1c4fe0800000000000000
+      internalID: -1203555486361155953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1197
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2280dea98ae1b33e0800000000000000
+      internalID: -2073029493971417054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1211
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ac89ae95da11c20800000000000000
+      internalID: 3175509813972486736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1132
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90caf386d53604b10800000000000000
+      internalID: 1963678690365647881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 668
+        width: 492
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde58fbf7fd305ca0800000000000000
+      internalID: -6030251765755519269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1197
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e255a61e8e1ccf0800000000000000
+      internalID: -233649650797302183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1172
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a323f95efc6c035c0800000000000000
+      internalID: -4237668653142691270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1195
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168bf00eb81f567f0800000000000000
+      internalID: -619823790631700383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1178
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6dee800cc28ed80800000000000000
+      internalID: -8221271916469627186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1188
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f32ae100e5c90b0800000000000000
+      internalID: -5720594072060412151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1181
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25dc7978b0a34c70800000000000000
+      internalID: 8954177198315328814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2589992dc1d5e8ee0800000000000000
+      internalID: -1256964867616040878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1142
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518a0658f59966760800000000000000
+      internalID: 7450811269069711381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1130
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf4a8a6f10f62760800000000000000
+      internalID: 7432892252743684030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1140
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ff6347558060910800000000000000
+      internalID: 1803137863923466064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1142
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7b18d882696fe60800000000000000
+      internalID: 7995743289359841245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1126
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5cd9651dfc77570800000000000000
+      internalID: 8464462522674431449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1020
+        width: 68
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4089f3ee00dc0fa70800000000000000
+      internalID: 8858805870918604804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1108
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a7f57c50d0a3f80800000000000000
+      internalID: -8126168259165717990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1036
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f962e1b4e80de870800000000000000
+      internalID: 8713630632361748982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1050
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b24d0a169786bc0800000000000000
+      internalID: -3789645626215224474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1051
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f56bc424cf11140800000000000000
+      internalID: 4688806048754458395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1050
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721ea4eaf583795e0800000000000000
+      internalID: -1902990333943553753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1038
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa90982efae7cb30800000000000000
+      internalID: 4307669945926326958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1016
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee1ec9ce7c747710800000000000000
+      internalID: 1690112644164230894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 972
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c2bbd0a9a8765f0800000000000000
+      internalID: -763489217556042672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 935
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23c0c2cb3296ff90800000000000000
+      internalID: -6920182992040049878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 943
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e819342e455a56110800000000000000
+      internalID: 1253589855284466062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 921
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5bea9c823157160800000000000000
+      internalID: 7022540259857446334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 869
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06daba392bdc7310800000000000000
+      internalID: 1404238153958217227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 875
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665cf33d4be864630800000000000000
+      internalID: 3910970233707283814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 851
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7e7dc8d4972d530800000000000000
+      internalID: 3878295603101820918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 853
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14e0b15c441b1fe0800000000000000
+      internalID: -1217356956252969957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 849
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7ddf7876678cf50800000000000000
+      internalID: 6901896615980554173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 836
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddfe8f779b213250800000000000000
+      internalID: 5922562914649046483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 841
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4659f7919a4727370800000000000000
+      internalID: 8318839731332814180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 821
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db8e054abd9fd780800000000000000
+      internalID: -8656026535434744875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 797
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d43315b178bbd40800000000000000
+      internalID: 5601219112961527150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 813
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb56fe774eacc590800000000000000
+      internalID: -7652550044713329737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 815
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4857c3b6ea5736670800000000000000
+      internalID: 8530791511153735044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 717
+        width: 53
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b891a12993f2f250800000000000000
+      internalID: 5977107494493853875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 793
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bf549855be96dd0800000000000000
+      internalID: -2492202166165046437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 769
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4899d46c8105b00800000000000000
+      internalID: 815178772538557643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 736
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d29f20f85a701960800000000000000
+      internalID: 7570685496015164113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 738
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ede20b365c1d3070800000000000000
+      internalID: 8087651662510091748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 744
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03caadd57740f6bd0800000000000000
+      internalID: -2634882346266219472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 722
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178d8d84c9130e7d0800000000000000
+      internalID: -2891256413465028495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 698
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c4ce25b1b2d8ff0800000000000000
+      internalID: -32322225966396404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06228812fb1837a0800000000000000
+      internalID: -6397332544072571380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Explosion_Atlas_52
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 0
+        width: 645
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda020e50daf10800800000000000000
+      internalID: 577018000117467870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Asteroid_Explosion_Atlas_0: 2744935819578596646
+      Asteroid_Explosion_Atlas_1: -2678032301644035368
+      Asteroid_Explosion_Atlas_10: -619823790631700383
+      Asteroid_Explosion_Atlas_11: -8221271916469627186
+      Asteroid_Explosion_Atlas_12: -5720594072060412151
+      Asteroid_Explosion_Atlas_13: 8954177198315328814
+      Asteroid_Explosion_Atlas_14: -1256964867616040878
+      Asteroid_Explosion_Atlas_15: 7450811269069711381
+      Asteroid_Explosion_Atlas_16: 7432892252743684030
+      Asteroid_Explosion_Atlas_17: 1803137863923466064
+      Asteroid_Explosion_Atlas_18: 7995743289359841245
+      Asteroid_Explosion_Atlas_19: 8464462522674431449
+      Asteroid_Explosion_Atlas_2: -7240768085272146093
+      Asteroid_Explosion_Atlas_20: 8858805870918604804
+      Asteroid_Explosion_Atlas_21: -8126168259165717990
+      Asteroid_Explosion_Atlas_22: 8713630632361748982
+      Asteroid_Explosion_Atlas_23: -3789645626215224474
+      Asteroid_Explosion_Atlas_24: 4688806048754458395
+      Asteroid_Explosion_Atlas_25: -1902990333943553753
+      Asteroid_Explosion_Atlas_26: 4307669945926326958
+      Asteroid_Explosion_Atlas_27: 1690112644164230894
+      Asteroid_Explosion_Atlas_28: -763489217556042672
+      Asteroid_Explosion_Atlas_29: -6920182992040049878
+      Asteroid_Explosion_Atlas_3: -1203555486361155953
+      Asteroid_Explosion_Atlas_30: 1253589855284466062
+      Asteroid_Explosion_Atlas_31: 7022540259857446334
+      Asteroid_Explosion_Atlas_32: 1404238153958217227
+      Asteroid_Explosion_Atlas_33: 3910970233707283814
+      Asteroid_Explosion_Atlas_34: 3878295603101820918
+      Asteroid_Explosion_Atlas_35: -1217356956252969957
+      Asteroid_Explosion_Atlas_36: 6901896615980554173
+      Asteroid_Explosion_Atlas_37: 5922562914649046483
+      Asteroid_Explosion_Atlas_38: 8318839731332814180
+      Asteroid_Explosion_Atlas_39: -8656026535434744875
+      Asteroid_Explosion_Atlas_4: -2073029493971417054
+      Asteroid_Explosion_Atlas_40: 5601219112961527150
+      Asteroid_Explosion_Atlas_41: -7652550044713329737
+      Asteroid_Explosion_Atlas_42: 8530791511153735044
+      Asteroid_Explosion_Atlas_43: 5977107494493853875
+      Asteroid_Explosion_Atlas_44: -2492202166165046437
+      Asteroid_Explosion_Atlas_45: 815178772538557643
+      Asteroid_Explosion_Atlas_46: 7570685496015164113
+      Asteroid_Explosion_Atlas_47: 8087651662510091748
+      Asteroid_Explosion_Atlas_48: -2634882346266219472
+      Asteroid_Explosion_Atlas_49: -2891256413465028495
+      Asteroid_Explosion_Atlas_5: 3175509813972486736
+      Asteroid_Explosion_Atlas_50: -32322225966396404
+      Asteroid_Explosion_Atlas_51: -6397332544072571380
+      Asteroid_Explosion_Atlas_52: 577018000117467870
+      Asteroid_Explosion_Atlas_6: 1963678690365647881
+      Asteroid_Explosion_Atlas_7: -6030251765755519269
+      Asteroid_Explosion_Atlas_8: -233649650797302183
+      Asteroid_Explosion_Atlas_9: -4237668653142691270
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
